@@ -1,0 +1,87 @@
+body{
+    background-color: #dff1ff;
+}
+.user-img{   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .title{
+      font-size: 390% !important;
+      font-weight: 500;
+  }
+
+  
+.para{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.btn-text{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.card-title{
+    font-size: 150% !important;
+    border-left: 6px #5D6FFF solid;
+}
+
+.card-title-secondary
+{
+    font-size: 350% !important;
+    border-left: 6px #5D6FFF solid;
+}
+
+ .title-secondary{
+     font-size: 120%;
+ }
+
+ .text-justify{
+     color:  #5D6FFF !important;
+     text-align: justify;
+ }
+
+.span-color{
+    background-color: #5D6FFF;
+    color:#FFFFFF !important;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 119%;
+}
+
+.custom-badge
+{
+    font-size: 1rem !important;
+    background-color: #FFFFFF;
+    font-weight: 600;
+}
+
+.view-all{
+    font-size: 80%;
+    font-weight: 500;
+    background-color: #5D6FFF;
+    cursor: pointer;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+.primary-bg{
+    background-color: #5D6FFF;
+    color: #FFFFFF !important;
+}
+.upload-btn-wrapper {
+    position: relative;
+  }
+  
+  .upload-file
+  {
+    font-weight:500;
+  }
+  .upload-btn-wrapper input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }

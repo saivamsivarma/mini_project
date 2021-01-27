@@ -1,0 +1,29 @@
+.logo {
+    cursor: pointer;
+  }
+
+  .drop{
+    color:#5D6FFF !important;
+    text-decoration: none;
+}
+.drop:hover{
+    color:#5D6FFF;
+}
+
+  .signin:hover{
+    color:#5D6FFF;
+  }
+
+  .secondary-btn{
+    border:2px solid #5D6FFF !important;
+    color:#5D6FFF !important;
+    background-color: #FFFFFF;
+    font-weight: bolder;
+    z-index: 10;
+  }
+
+  .primary-btn{
+    background-color: #5D6FFF;
+    color:#FFFFFF !important;
+    font-weight: bold;
+  }

@@ -1,0 +1,28 @@
+.active{
+    color: #5D6FFF !important;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color:#04283E;
+}
+
+.holder{
+    justify-content: space-between !important;
+}
+
+.custom-toggler{
+    margin-left: 5rem;
+}
+
+.navbar-toggler:focus{
+    border-color: #ffffff;
+    outline: 0px;
+}
+
+.navbar{
+    width: 100%;
+}

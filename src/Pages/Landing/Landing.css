@@ -1,0 +1,22 @@
+.heading{
+    font-weight: bolder;
+    font-size: 2rem;
+    color:#04283E !important;
+    letter-spacing: 0.2rem;
+}
+
+.heading-secondary{
+    font-weight: bolder;
+    font-size: 1.65rem;
+    text-align: justify;
+}
+
+.start{
+    text-align: start;
+}
+
+@media only screen and (max-width: 600px) {
+    .start{
+        text-align: center;
+    }
+}

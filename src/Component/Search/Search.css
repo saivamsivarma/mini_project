@@ -1,0 +1,22 @@
+
+.search-found{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.search-holder{
+    background-color: #ffffff;
+}
+
+.search-btn{
+    border-bottom-left-radius: 0% !important;
+    border-top-left-radius: 0% !important;
+    border-top-right-radius: 6% !important;
+    border-bottom-right-radius: 6% !important;
+}
+
+.search-input{
+    border:0px;
+    border-radius: 0%;
+    border-left:5px solid #5D6FFF;
+}
