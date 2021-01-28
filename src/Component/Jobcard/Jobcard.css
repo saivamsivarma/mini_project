@@ -1,0 +1,15 @@
+.head{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color:#5D6FFF !important;
+}
+.details {
+    text-align: justify !important;
+}
+
+.secondary-bg{
+    color:#5D6FFF !important;
+    border: 2px solid #5D6FFF;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
