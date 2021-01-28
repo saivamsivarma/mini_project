@@ -3,6 +3,8 @@ import Job from '../../../Assets/job.svg';
 import Semi from '../../../Assets/semi.svg';
 import './Dashboard.css';
 import Navbar from '../../../Component/Navbar/Navbar';
+import User from '../../../Assets/defaultuser.svg';
+
 function Dashboard() {
   return (
     <div>
@@ -88,7 +90,7 @@ function Dashboard() {
           <div className="col-12 col-md-6 col-xl-3">
             <div className="card shadow p-3 mt-3 mt-md-0">
               <div className="d-flex align-items-center w-100">
-                <img src="" alt="" className="rounded-circle shadow" height="60" width="60" />
+                <img src={User} alt="" className="rounded-circle shadow" height="60" width="60" />
 
                   <div className="ml-5">
                     <div className="user-details font-weight-bold">root</div>

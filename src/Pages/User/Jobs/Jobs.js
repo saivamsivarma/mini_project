@@ -4,7 +4,7 @@ import Navbar from '../../../Component/Navbar/Navbar';
 import Search from '../../../Component/Search/Search';
 import MapContainer from '../../../Component/Map/Map';
 import Jobcard from '../../../Component/Jobcard/Jobcard';
-import Google from '../../../Assets/google.svg'
+import Google from '../../../Assets/google.svg';
 
 function Jobs() {
     return (

@@ -6,12 +6,16 @@ import UserLogin from './Pages/User/Login/Login';
 import UserSignup from './Pages/User/Signup/Signup';
 import UserDashboard from './Pages/User/Dashboard/Dashboard';
 import UserJobs from './Pages/User/Jobs/Jobs';
+
 import RecruiterLogin from './Pages/Recruiter/Login/Login';
 import RecruiterSignup from './Pages/Recruiter/Signup/Signup';
+
+import Voicebot from './Component/Voicebot/Voicebot';
 
 function App() {
   return (
     <Router>
+      <Voicebot/>
         <Switch>
           <Route path="/" exact component={Landing} />
           <Route path="/user-login" exact component={UserLogin}/>

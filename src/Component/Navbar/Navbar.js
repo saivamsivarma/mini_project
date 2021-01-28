@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import logo from '../../Assets/logo.svg';
 import NavIcon from '../../Assets/navbar.svg'
 import { Link, NavLink } from 'react-router-dom';
-import './Navbar.css'
+import User from '../../Assets/defaultuser.svg';
+import './Navbar.css';
 
 function Navbar() {
 
@@ -33,11 +34,11 @@ function Navbar() {
                         <li className="nav-item">
                             <NavLink activeClassName="active" to="/user-application" className="link nav-link" onClick={handleNavCollapse}>Application Status</NavLink>
                         </li>
-                        <li className="nav-item"><div className="link nav-link d-block d-md-none">Logout</div></li>
+                        <li className="nav-item"><Link to="/" className="link nav-link d-block d-md-none">Logout</Link></li>
                     </ul>
                 </div>
                 <div className="user-details d-md-flex justify-content-evenly ">
-                    <img src="" alt="" className="user-img shadow d-none d-md-block" />
+                    <img src={User} alt="" className="user-img shadow d-none d-md-block" />
                     <div className="dropdown align-items-center d-none d-md-block">
                         <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
                         </button>
