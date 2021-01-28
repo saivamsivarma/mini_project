@@ -6,6 +6,8 @@ import UserLogin from './Pages/User/Login/Login';
 import UserSignup from './Pages/User/Signup/Signup';
 import UserDashboard from './Pages/User/Dashboard/Dashboard';
 import UserJobs from './Pages/User/Jobs/Jobs';
+import Userdetails from './Pages/User/Userdetails/Userdetails';
+import Userapplication from './Pages/User/Application/Application';
 
 import RecruiterLogin from './Pages/Recruiter/Login/Login';
 import RecruiterSignup from './Pages/Recruiter/Signup/Signup';
@@ -24,6 +26,8 @@ function App() {
           <Route path="/recruiter-signup" exact component={RecruiterSignup}/>
           <Route path="/user-dashboard" exact component={UserDashboard}/>
           <Route path="/user-jobs" exact component={UserJobs}/>
+          <Route path="/user-details" exact component={Userdetails}/>
+          <Route path="/user-application" exact component={Userapplication}/>
         </Switch>
       </Router>
   );

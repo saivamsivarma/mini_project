@@ -21,7 +21,7 @@ function Jobcard(props) {
             <div className="badge secondary-bg">Min. 1 Year</div>
             <div className="badge secondary-bg">Senior Level</div>
             </div>
-            <button className="btn w-full primary-btn my-3">Apply Now</button>
+            <button className="btn w-full primary-btn my-3">{props.btn}</button>
         </div>
     )
 };

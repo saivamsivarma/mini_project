@@ -27,12 +27,12 @@ function UserSignup() {
                     </div>
                     <form className="form-group px-4 px-md-5 my-4">
                         <div className="form-label-group px-0 px-md-5">
-                            <input type="email" id="inputEmail" className="form-control px-3" placeholder="Email address" required autoFocus />
+                            <input type="email" id="inputEmail" className="form-control px-3" placeholder="Email address"/>
                             <label>Full Name</label>
                         </div>
 
                         <div className="form-label-group px-0 px-md-5">
-                            <input type="email" id="inputEmail" className="form-control px-3" placeholder="Email address" required />
+                            <input type="email" id="inputEmail" className="form-control px-3" placeholder="Email address"/>
                             <label>Email address</label>
                         </div>
 
@@ -45,7 +45,7 @@ function UserSignup() {
                             <label>Confirm Password</label>
                         </div>
                         <div className="text-center px-0 px-md-5">
-                            <button className="btn primary-btn w-100 shadow my-2">Signup</button>
+                            <Link to="/user-details" className="btn primary-btn w-100 shadow my-2">Signup</Link>
                         </div>
                     </form>
                     <div className="px-0 px-md-5">

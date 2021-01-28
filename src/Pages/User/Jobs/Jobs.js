@@ -21,13 +21,13 @@ function Jobs() {
                     </div>
                     <div className="head mt-5">Based on your Skills</div>
                     <div className="col-12 col-md-6 col-lg-4 mt-2">
-                        <Jobcard img={Google} h="50" name="Google" role="Software Developer" />
+                        <Jobcard img={Google} h="50" name="Google" role="Software Developer" btn="Apply Now"/>
                     </div>
                     <div className="col-12 col-md-6 col-lg-4 mt-2">
-                        <Jobcard img={Google} h="50" name="Google" role="Software Developer" />
+                        <Jobcard img={Google} h="50" name="Google" role="Software Developer" btn="Apply Now"/>
                     </div>
                     <div className="col-12 col-md-6 col-lg-4 mt-2">
-                        <Jobcard img={Google} h="50" name="Google" role="Software Developer" />
+                        <Jobcard img={Google} h="50" name="Google" role="Software Developer" btn="Apply Now"/>
                     </div>
                 </div>
             </div>
