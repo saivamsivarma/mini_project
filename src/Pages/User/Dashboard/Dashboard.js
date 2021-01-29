@@ -8,7 +8,7 @@ import User from '../../../Assets/defaultuser.svg';
 function Dashboard() {
   return (
     <div>
-      <Navbar/>
+      <Navbar name1="My jobFinder" link1="user-dashboard" name2="Jobs" link2="user-jobs" name3="Application Status" link3="user-apllication"/>
       <div className="container-fluid">
         <div className="row p-3">
           <div className="col-12 col-xl-9">

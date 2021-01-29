@@ -9,7 +9,7 @@ import Google from '../../../Assets/google.svg';
 function Jobs() {
     return (
         <div>
-            <Navbar />
+            <Navbar name1="My jobFinder" link1="user-dashboard" name2="Jobs" link2="user-jobs" name3="Application Status" link3="user-apllication"/>
             <div className="container mb-2">
                 <div className="row">
                     <div className="col-12"><Search /></div>

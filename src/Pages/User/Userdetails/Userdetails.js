@@ -5,7 +5,7 @@ import User from '../../../Assets/defaultuser.svg';
 import './Userdetails.css'
 
 function Userdetails() {
-    const [file, setFile] = useState(null);
+    const [setFile] = useState(null);
     const [previewSrc, setPreviewSrc] = useState('');
     const dropRef = useRef();
 

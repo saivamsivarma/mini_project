@@ -1,0 +1,12 @@
+.upload-section{
+    border:2px dashed #5D6FFF;
+}
+
+.color-ch{
+    font-size: 2rem;
+    color: #5D6FFF!important;
+}
+
+.click-enable:hover{
+    cursor: pointer;
+}

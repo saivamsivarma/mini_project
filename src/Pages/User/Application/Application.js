@@ -6,7 +6,7 @@ import Navbar from '../../../Component/Navbar/Navbar';
 function Applications() {
     return (
         <div>
-            <Navbar />
+            <Navbar name1="My jobFinder" link1="user-dashboard" name2="Jobs" link2="user-jobs" name3="Application Status" link3="user-apllication"/>
             <div className="container mt-5">
                 <div className="row">
                     <div className="col-12 col-md-4">

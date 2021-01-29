@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.css'; 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Landing from './Pages/Landing/Landing';
 import UserLogin from './Pages/User/Login/Login';
@@ -11,6 +11,8 @@ import Userapplication from './Pages/User/Application/Application';
 
 import RecruiterLogin from './Pages/Recruiter/Login/Login';
 import RecruiterSignup from './Pages/Recruiter/Signup/Signup';
+import Recruitercreateprofile from './Pages/Recruiter/Createprofile/Createprofile';
+import Recruiterdashboard from './Pages/Recruiter/Dashboard/Dashboard';
 
 import Voicebot from './Component/Voicebot/Voicebot';
 
@@ -22,12 +24,15 @@ function App() {
           <Route path="/" exact component={Landing} />
           <Route path="/user-login" exact component={UserLogin}/>
           <Route path="/user-signup" exact component={UserSignup}/>
-          <Route path="/recruiter-login" exact component={RecruiterLogin}/>
-          <Route path="/recruiter-signup" exact component={RecruiterSignup}/>
           <Route path="/user-dashboard" exact component={UserDashboard}/>
           <Route path="/user-jobs" exact component={UserJobs}/>
           <Route path="/user-details" exact component={Userdetails}/>
           <Route path="/user-application" exact component={Userapplication}/>
+
+          <Route path="/recruiter-login" exact component={RecruiterLogin}/>
+          <Route path="/recruiter-signup" exact component={RecruiterSignup}/>
+          <Route path="/recruiter-createprofile" exact component={Recruitercreateprofile}/>
+          <Route path="/recruiter-dashboard" exact component={Recruiterdashboard}/>
         </Switch>
       </Router>
   );

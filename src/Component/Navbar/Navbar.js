@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 import User from '../../Assets/defaultuser.svg';
 import './Navbar.css';
 
-function Navbar() {
+function Navbar(props) {
 
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
@@ -26,13 +26,13 @@ function Navbar() {
                 <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse justify-content-center`} id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <NavLink activeClassName="active" to="/user-dashboard" className="link nav-link" onClick={handleNavCollapse}>My JobFinder</NavLink>
+                            <NavLink activeClassName="active" to={`/${props.link1}`} className="link nav-link" onClick={handleNavCollapse}>{props.name1}</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink activeClassName="active" to="/user-jobs" className="link nav-link" onClick={handleNavCollapse} >Jobs</NavLink>
+                            <NavLink activeClassName="active" to={`/${props.link2}`} className="link nav-link" onClick={handleNavCollapse}>{props.name2}</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink activeClassName="active" to="/user-application" className="link nav-link" onClick={handleNavCollapse}>Application Status</NavLink>
+                            <NavLink activeClassName="active" to={`/${props.link3}`} className="link nav-link" onClick={handleNavCollapse}>{props.name3}</NavLink>
                         </li>
                         <li className="nav-item"><Link to="/" className="link nav-link d-block d-md-none">Logout</Link></li>
                     </ul>

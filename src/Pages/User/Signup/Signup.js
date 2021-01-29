@@ -19,7 +19,6 @@ function UserSignup() {
     return (
         <div className="container-fluid">
             <div className="row align-items-center">
-                <div className="col-lg-6 login-fram d-none d-lg-block" ref={loginfram}></div>
                 <div className="col-12 col-lg-6 my-5 my-lg-0">
                     <div className="text-center">
                         <img src={Logo} alt="" height="70" />
@@ -55,6 +54,7 @@ function UserSignup() {
                         </div>
                     </div>
                 </div>
+                <div className="col-lg-6 login-fram d-none d-lg-block" ref={loginfram}></div>
             </div>
         </div>
     );

@@ -19,7 +19,6 @@ function RecruiterSignup() {
     return (
         <div className="container-fluid">
             <div className="row align-items-center">
-                <div className="col-lg-6 login-fram d-none d-lg-block" ref={loginfram}></div>
                 <div className="col-12 col-lg-6 my-5 my-lg-0">
                     <div className="text-center">
                         <img src={Logo} alt="" height="70" />
@@ -45,7 +44,7 @@ function RecruiterSignup() {
                             <label>Confirm Password</label>
                         </div>
                         <div className="text-center px-0 px-md-5">
-                            <button className="btn primary-btn w-100 shadow my-2">Signup</button>
+                            <Link to="/recruiter-createprofile" className="btn primary-btn w-100 shadow my-2">Signup</Link>
                         </div>
                     </form>
                     <div className="px-0 px-md-5">
@@ -55,6 +54,7 @@ function RecruiterSignup() {
                         </div>
                     </div>
                 </div>
+                <div className="col-lg-6 login-fram d-none d-lg-block" ref={loginfram}></div>
             </div>
         </div>
     );
